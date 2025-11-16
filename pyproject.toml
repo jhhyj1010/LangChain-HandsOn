@@ -1,0 +1,19 @@
+[project]
+name = "langchain-handson"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "langchain-anthropic>=1.0.3",
+    "langchain-classic>=1.0.0",
+    "langchain-community>=0.4.1",
+    "langchain-deepseek>=1.0.1",
+    "langchain-ollama>=1.0.0",
+    "langchain-text-splitters>=1.0.0",
+    "langchain[openai]>=1.0.5",
+    "load-dotenv>=0.1.0",
+    "ollama>=0.6.1",
+    "scikit-learn",
+]
