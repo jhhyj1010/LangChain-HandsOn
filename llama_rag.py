@@ -32,7 +32,7 @@ retriever = vectorstore.as_retriever(k=4)
 
 # Set up the LLM and prompt template
 from langchain_ollama import ChatOllama
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 # Define the prompt template for the LLM
